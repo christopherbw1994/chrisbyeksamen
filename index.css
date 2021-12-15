@@ -164,6 +164,10 @@ p {
   flex-direction: column;
 }
 
+.posterbox:hover {
+  cursor: none;
+}
+
 .movieposter {
   height: 45%;
   width: 45%;
@@ -173,12 +177,20 @@ p {
   cursor: pointer;
 }
 
-.video {
-  margin-top: 10px;
-  width: 600px;
-  height: 600px;
-  border: 0px;
+.youtube {
+  justify-content: center;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+}
 
+.youtubepic {
+  height: 85%;
+  width: 85%;
+}
+
+.youtubepic:hover {
+  cursor: pointer;
 }
 
 .containerone {
